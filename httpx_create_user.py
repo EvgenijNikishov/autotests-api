@@ -39,3 +39,4 @@ response_auth = httpx.patch(f"http://localhost:8000/api/v1/users/{user_id}", jso
 response_auth_json = response_auth.json()
 
 print(response_auth.status_code)
+print("Успех")
