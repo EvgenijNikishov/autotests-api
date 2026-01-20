@@ -7,12 +7,13 @@ from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.user.public_users_client import get_public_users_client
 from clients.user.users_schema import CreateUserRequestSchema
-from faker import get_random_email
+from tools.fakers import fake
+
 
 public_users_client = get_public_users_client()
 
 create_user_request = CreateUserRequestSchema(
-    email="getunis1@mail.ru",
+    email=fake.email,
     password="string",
     lastName="string",
     firstName="string",

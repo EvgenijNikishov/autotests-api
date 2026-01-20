@@ -1,9 +1,9 @@
 import httpx
-import faker
+from tools.fakers import fake
 
 #Создаем юзера
 payload = {
-    "email": faker.get_random_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
@@ -29,7 +29,7 @@ print(f"Получен токен авторизации: {token}")
 #Обновляем данные
 
 payload_new = {
-    "email": faker.get_random_email(),
+    "email": fake.email(),
     "lastName": "string",
     "firstName": "string",
     "middleName": "string"
