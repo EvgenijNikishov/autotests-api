@@ -9,10 +9,10 @@ class ExerciseSchema(BaseModel):
 
     id: str
     title: str
-    course_id: str = Field(alias="course_id")
-    max_score: int = Field(alias="max_score")
-    min_score: int = Field(alias="min_score")
-    order_index: int = Field(alias="order_index")
+    course_id: str = Field(alias="courseId")
+    max_score: int = Field(alias="maxScore")
+    min_score: int = Field(alias="minScore")
+    order_index: int = Field(alias="orderIndex")
     description: str
     estimated_time: str = Field(alias="estimatedTime")
 
@@ -28,6 +28,8 @@ class GetExercisesQuerySchema(BaseModel):
     """
     Описание структуры запроса на получение списка заданий.
     """
+    model_config = ConfigDict(populate_by_name=True)
+
     course_id: str = Field(alias="courseId")
 
 
@@ -45,10 +47,10 @@ class CreateExerciseRequestSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     title: str
-    course_id: str = Field(alias="course_id")
-    max_score: int = Field(alias="max_score")
-    min_score: int = Field(alias="min_score")
-    order_index: int = Field(alias="order_index")
+    course_id: str = Field(alias="courseId")
+    max_score: int = Field(alias="maxScore")
+    min_score: int = Field(alias="minScore")
+    order_index: int = Field(alias="orderIndex")
     description: str
     estimated_time: str = Field(alias="estimatedTime")
 
