@@ -5,7 +5,7 @@ from clients.user.private_users_client import get_private_users_client
 from clients.user.public_users_client import get_public_users_client
 from clients.user.users_schema import CreateUserRequestSchema, GetUserResponseSchema
 from tools.fakers import fake
-from tools.assertion.schema import validate_json_schema
+from tools.assertions.schema import validate_json_schema
 
 public_user_create = get_public_users_client()
 
