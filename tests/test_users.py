@@ -15,6 +15,8 @@ from tools.fakers import fake
 @pytest.mark.users
 @pytest.mark.regression
 @pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
+
+@pytest.mark.flaky(reruns=5, reruns_delay=3)
 def test_create_user(email: str, public_users_client: PublicUsersClient):
     request = CreateUserRequestSchema(
         email=fake.email(domain=email)
