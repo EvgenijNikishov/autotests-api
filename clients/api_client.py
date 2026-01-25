@@ -2,11 +2,13 @@ from h11 import Request
 from httpx import Client, Response, URL, QueryParams
 from typing import Any
 from httpx._types import RequestData,RequestFiles
+import allure
 
 class APIClient:
     def __init__(self,client: Client):
         self.client = client
 
+    @allure.step("Make GET request to {url}")  # Добавили allure шаг
     def get (self,
              url: URL | str,
              params: QueryParams | None = None
@@ -20,6 +22,7 @@ class APIClient:
          """
         return self.client.get(url, params=params)
 
+    @allure.step("Make POST request to {url}")  # Добавили allure шаг
     def post (self,
               url: URL | str,
               json: Any | None = None,
@@ -37,6 +40,8 @@ class APIClient:
         """
         return self.client.post(url, json=json, data=data, files=files)
 
+
+    @allure.step("Make PATCH request to {url}")  # Добавили allure шаг
     def patch (self,
               url: URL | str,
               json: Any | None = None,
@@ -52,6 +57,7 @@ class APIClient:
         """
         return self.client.patch(url, json=json, data=data, files=files)
 
+    @allure.step("Make DELETE request to {url}")  # Добавили allure шаг
     def delete (self,
              url: URL | str,
         ) -> Response:
