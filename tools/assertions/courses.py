@@ -1,7 +1,11 @@
 from clients.courses.courses_schema import UpdateCourseResponseSchema, UpdateCourseRequestSchema, \
     CreateCourseRequestSchema
-from tools.assertions.base import assert_equal
 
+from clients.courses.courses_schema import CourseSchema, UpdateCourseRequestSchema, UpdateCourseResponseSchema, \
+    GetCoursesResponseSchema, CreateCourseResponseSchema
+from tools.assertions.base import assert_equal, assert_length
+from tools.assertions.files import assert_file
+from tools.assertions.users import assert_user
 
 def assert_update_course_response(
         request: UpdateCourseRequestSchema,
@@ -29,15 +33,6 @@ def assert_update_course_response(
     if request.estimated_time is not None:
         assert_equal(response.course.estimated_time, request.estimated_time, "estimated_time")
 
-
-from clients.courses.courses_schema import CourseSchema, UpdateCourseRequestSchema, UpdateCourseResponseSchema, \
-    GetCoursesResponseSchema, CreateCourseResponseSchema
-from tools.assertions.base import assert_equal, assert_length
-from tools.assertions.files import assert_file
-from tools.assertions.users import assert_user
-
-
-# Остальной код без изменений
 
 def assert_course(actual: CourseSchema, expected: CourseSchema):
     """
