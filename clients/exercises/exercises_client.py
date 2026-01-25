@@ -25,7 +25,7 @@ class ExercisesClient(APIClient):
         """
         return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True))
 
-    @allure.step("Ger exercises for id {exerciseId}")
+    @allure.step("Ger exercises for id {exercise_id}")
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод получения задания.
