@@ -1,6 +1,8 @@
+from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
     ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseResponseSchema, UpdateExerciseRequestSchema
 from tools.assertions.base import assert_equal
+from tools.assertions.errors import assert_internal_error_response
 
 
 def assert_create_exercise_response(
@@ -75,3 +77,11 @@ def assert_update_exercise_response (
 
     if request.order_index is not None:
         assert_equal(response.exercise.order_index, request.order_index, "order_index")
+
+
+
+def assert_exercise_not_found_response (
+        actual: InternalErrorResponseSchema
+):
+    expected = InternalErrorResponseSchema(details="Exercise not found")
+    assert_internal_error_response (actual, expected)

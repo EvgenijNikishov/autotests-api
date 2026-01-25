@@ -3,6 +3,7 @@ from clients.courses.courses_schema import UpdateCourseResponseSchema, UpdateCou
 
 from clients.courses.courses_schema import CourseSchema, UpdateCourseRequestSchema, UpdateCourseResponseSchema, \
     GetCoursesResponseSchema, CreateCourseResponseSchema
+from clients.errors_schema import InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
@@ -96,3 +97,5 @@ def assert_create_course_response(
         request.created_by_user_id,
         "created_by_user_id"
     )
+
+
