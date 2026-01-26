@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjMwLjA2Njg2NyIsInVzZXJfaWQiOiJhZTJmOTBkNC1kMzA4LTRmYjYtYTg0Mi1jZjVlM2Q5Y2I3OTUifQ.BSOpAnFJV5ovYphpgL49YhJR32gLetS1Gs9oDU4qWHY' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice stay surface later.","courseId":"97f1964c-04a6-4cec-9d83-cb84caff00ac","maxScore":67,"minScore":19,"orderIndex":68,"description":"Son throughout particular evening by. Region analysis commercial land story what soon. Side once size prevent plan.\nCourse under necessary.","estimatedTime":"10 weeks"}'

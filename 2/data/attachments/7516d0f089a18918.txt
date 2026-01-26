@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjMwLjA2Njg2NyIsInVzZXJfaWQiOiJhZTJmOTBkNC1kMzA4LTRmYjYtYTg0Mi1jZjVlM2Q5Y2I3OTUifQ.BSOpAnFJV5ovYphpgL49YhJR32gLetS1Gs9oDU4qWHY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten list off new approach new.","maxScore":87,"minScore":13,"description":"Letter sure enter writer vote pretty ten. Design forward scene grow.\nFoot above feeling. Look scientist management for play.\nDifferent media claim type. Body walk thus analysis night them.","estimatedTime":"4 weeks","previewFileId":"e4a17e9d-fe4d-4346-b988-bf920c94e55f","createdByUserId":"ae2f90d4-d308-4fb6-a842-cf5e3d9cb795"}'

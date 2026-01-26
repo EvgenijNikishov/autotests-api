@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjI4Ljg0NzQ2NCIsInVzZXJfaWQiOiJkZDNmZmMwYS0zNWQ5LTQ0NmEtOGJhNy05ODNmNTViNjY3MWMifQ.zYu9RK-C0C_t8v0zX-yuebZSFCutjxBqxPZFR4nQBFc' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teacher thing summer.","courseId":"a1f93111-8ec2-47a2-ae92-444c7beb27da","maxScore":97,"minScore":24,"orderIndex":70,"description":"Yeah respond up allow. Child five party campaign magazine kitchen message.\nA create effect almost national. Enjoy stage citizen outside yes.","estimatedTime":"7 weeks"}'

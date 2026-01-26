@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjI4Ljg0NzQ2NCIsInVzZXJfaWQiOiJkZDNmZmMwYS0zNWQ5LTQ0NmEtOGJhNy05ODNmNTViNjY3MWMifQ.zYu9RK-C0C_t8v0zX-yuebZSFCutjxBqxPZFR4nQBFc' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without by memory toward off cup light.","maxScore":100,"minScore":19,"description":"Nice part standard. Involve little miss easy magazine. Sometimes hotel without reduce top.\nSite evidence top. Risk mouth party summer design. Fall without smile.","estimatedTime":"1 weeks","previewFileId":"fd2ed664-6f75-4528-94ae-a716f0b4180e","createdByUserId":"dd3ffc0a-35d9-446a-8ba7-983f55b6671c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjI3LjA5Njg2MSIsInVzZXJfaWQiOiIyZGUyNzQyYi00ZTFmLTQ0YTUtYjc1ZS01ODMxZmNiNmQ3MGUifQ.1jaQ13QLcHAdyy2uZl1t-Y9MCHKE7m5MSIF7InV4_TI' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Happen attack push few green lot.","maxScore":91,"minScore":3,"description":"Let community power. Brother tree knowledge either across speak front. Serve challenge Mr treatment company area knowledge.","estimatedTime":"1 weeks","previewFileId":"3017b83c-2b10-4aed-b8a1-934165475666","createdByUserId":"2de2742b-4e1f-44a5-b75e-5831fcb6d70e"}'

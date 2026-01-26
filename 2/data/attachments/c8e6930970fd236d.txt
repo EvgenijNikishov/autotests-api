@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjI4LjI1NzYwMiIsInVzZXJfaWQiOiJkZmEwZDU1MS0wMjNjLTQ0ODEtYTI0NS0xZTY0N2VhZWJhNTUifQ.ZwOSBYWotqLmEdciUBVcsUpdHirJ5PSpWR_FJxNbC9o' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Base oil along page way art music.","courseId":"55a2aa28-b532-4e46-830b-973b5bf37337","maxScore":97,"minScore":27,"orderIndex":95,"description":"Official cut national others political visit. Already rate cultural turn building sing card. Security culture hair image ground memory.","estimatedTime":"6 weeks"}'

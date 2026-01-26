@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjI4LjI1NzYwMiIsInVzZXJfaWQiOiJkZmEwZDU1MS0wMjNjLTQ0ODEtYTI0NS0xZTY0N2VhZWJhNTUifQ.ZwOSBYWotqLmEdciUBVcsUpdHirJ5PSpWR_FJxNbC9o' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Total cell popular kind.","maxScore":85,"minScore":28,"description":"Air beautiful weight relationship still. Under three Republican low pay southern.\nA write huge discover collection. White spend along event something.","estimatedTime":"6 weeks","previewFileId":"d0dfe385-f23d-4dbb-8166-73c636eeba43","createdByUserId":"dfa0d551-023c-4481-a245-1e647eaeba55"}'

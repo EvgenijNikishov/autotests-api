@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/12e0d24f-cac7-4655-b0be-19a355080d5e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE0OjU3OjI4LjI1NzYwMiIsInVzZXJfaWQiOiJkZmEwZDU1MS0wMjNjLTQ0ODEtYTI0NS0xZTY0N2VhZWJhNTUifQ.ZwOSBYWotqLmEdciUBVcsUpdHirJ5PSpWR_FJxNbC9o' \
+  -H 'content-length: 267' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Check sound dream science.","maxScore":51,"minScore":1,"orderIndex":59,"description":"Stock debate see. Capital PM indicate.\nBecause where movement add test personal here into. Full north clear eat spring build project thousand.","estimatedTime":"1 weeks"}'
