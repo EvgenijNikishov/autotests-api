@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjA1LjY3MjMyMCIsInVzZXJfaWQiOiJkZmUzNTMxZi1kMmY5LTQ0NWItYjIxYi1kNDliYzQwNTQzODkifQ.U_Z-WQo-7S-1MQj878DN1RTuOce6Lq3CkJJj-xSFgO8' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical Mr service line stage together.","maxScore":82,"minScore":16,"description":"Sport attention difficult call. Design city seek her our play response occur. Fill can save. Help whether tax employee.","estimatedTime":"2 weeks","previewFileId":"fc3de52e-e8b6-41b3-878c-d583bc13ea73","createdByUserId":"dfe3531f-d2f9-445b-b21b-d49bc4054389"}'

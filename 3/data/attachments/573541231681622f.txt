@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjA1LjY3MjMyMCIsInVzZXJfaWQiOiJkZmUzNTMxZi1kMmY5LTQ0NWItYjIxYi1kNDliYzQwNTQzODkifQ.U_Z-WQo-7S-1MQj878DN1RTuOce6Lq3CkJJj-xSFgO8' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Morning minute range.","courseId":"662b74b6-8e47-41d0-b8cb-354e48a7acad","maxScore":94,"minScore":27,"orderIndex":3,"description":"Need yard wait party. Present Democrat seem may exist travel. Example mind safe Mrs situation.","estimatedTime":"3 weeks"}'

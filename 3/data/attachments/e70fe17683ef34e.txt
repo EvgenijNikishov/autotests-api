@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjA1LjA5MDg4MiIsInVzZXJfaWQiOiI2MDFkNmVmMy05MDA3LTQyYWMtYTYwMC0yYzE2YzRhZjc1YjIifQ.crrDvZDByuQcRcRx4DIByuv22pNkny5NHi_nUacKreA' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible break clearly condition.","maxScore":78,"minScore":24,"description":"Accept camera soldier either break. Management loss last Mr work family. Section group machine school strategy operation.\nGrow across interesting laugh red prepare. Part draw good clearly among.","estimatedTime":"3 weeks","previewFileId":"b95792f1-70c9-4cb8-87bf-c5a08b12bdd0","createdByUserId":"601d6ef3-9007-42ac-a600-2c16c4af75b2"}'

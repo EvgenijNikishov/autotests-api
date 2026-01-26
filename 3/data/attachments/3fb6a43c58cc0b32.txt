@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjAzLjI4NTE4NSIsInVzZXJfaWQiOiI3YTI4MTdiMS1jZjMxLTQ4NGMtYjc0YS0wZTUxNDdlNzg5YzEifQ.K7ObaYNRcptHtScdfOtKBM7Jzh4TkioYxHryDnWlZAQ' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Officer ten nor sort modern detail.","maxScore":58,"minScore":29,"description":"Big if statement growth light fact. Standard but organization.\nFeeling else book other tell compare staff friend. Price line late free ago east find adult. Than only defense store.","estimatedTime":"7 weeks","previewFileId":"794b1a47-be8a-4847-8ee3-00e5930effac","createdByUserId":"7a2817b1-cf31-484c-b74a-0e5147e789c1"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6de24fd3-94ca-46b0-b507-b441ac7e1c7d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjAyLjY5NTMzMCIsInVzZXJfaWQiOiJmYTUxMjRhYi1lY2FkLTQzZjYtOGNlNy02ZWY1NTlhMGM5YWUifQ.0gS9PPUsHL5RpPC6TipAm7ulOdhMmHKBnWG7DzOJMOU' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scientist go cup.","maxScore":58,"minScore":30,"description":"Reduce into speech huge week rather off. System example television dream professor race chair.\nHowever none dark attorney. Second agent most race none than measure. So too situation day professional.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjA2LjkyMDcyOSIsInVzZXJfaWQiOiI2YWUzZjFlMS0xNjMzLTRhMDAtOTMzMS02YzFkOWE1N2MwNjYifQ.EmkxXah7CiXNf2f5KWNzgwhRkoTPKR1xGejmslmp7eU' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social including community near.","maxScore":56,"minScore":14,"description":"Culture form property give remain same statement. Tell image character ball agency. Against beat plan.","estimatedTime":"1 weeks","previewFileId":"a990c524-d80a-4434-8ca3-b577f498c85c","createdByUserId":"6ae3f1e1-1633-4a00-9331-6c1d9a57c066"}'

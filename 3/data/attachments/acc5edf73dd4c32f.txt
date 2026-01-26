@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjAyLjY5NTMzMCIsInVzZXJfaWQiOiJmYTUxMjRhYi1lY2FkLTQzZjYtOGNlNy02ZWY1NTlhMGM5YWUifQ.0gS9PPUsHL5RpPC6TipAm7ulOdhMmHKBnWG7DzOJMOU' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Its agreement others toward.","maxScore":76,"minScore":8,"description":"Strategy candidate cost will step this. Recently education sister stop.\nEspecially why he remember. Back exist bank top single everyone.\nRead knowledge rise recent region.","estimatedTime":"10 weeks","previewFileId":"95f6beb6-dab1-4b25-9a74-3696ca7a1373","createdByUserId":"fa5124ab-ecad-43f6-8ce7-6ef559a0c9ae"}'

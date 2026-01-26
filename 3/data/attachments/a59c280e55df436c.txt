@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjA2LjI5OTM4MCIsInVzZXJfaWQiOiI4YjAxM2NjMC1iMzNlLTQ1YjMtYWY1MS1kOGQ3MjQ3ZTc1ZmMifQ.Dwf--joCgcAzd_6dWOxNOTly7THH069KMdh5J8NaetI' \
+  -H 'content-length: 302' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity bag test key gun.","maxScore":83,"minScore":12,"description":"Various improve pay nice any politics. Soldier laugh there develop tax impact.","estimatedTime":"4 weeks","previewFileId":"c3bb138b-87dd-4fbe-850e-dc4b647c13a7","createdByUserId":"8b013cc0-b33e-45b3-af51-d8d7247e75fc"}'

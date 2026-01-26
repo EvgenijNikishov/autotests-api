@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTI2VDE1OjE4OjAzLjkyODMzMyIsInVzZXJfaWQiOiI5YWFiZTg3MS1hMjkwLTQ2MzMtODdjMS05NTZjMWUwY2U3OGQifQ.C81HPSN2UBxV-AWIgU_3DfLnxkOcVtUYkmO6dPCHC8s' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation area pick check.","maxScore":83,"minScore":1,"description":"Table enough again data. Eye their event record religious.\nInstitution southern major. Professor arrive I happy late. Get arrive weight summer. Worker style probably power space different kid.","estimatedTime":"6 weeks","previewFileId":"4effa716-4e3a-49b1-a567-fe472064a601","createdByUserId":"9aabe871-a290-4633-87c1-956c1e0ce78d"}'
